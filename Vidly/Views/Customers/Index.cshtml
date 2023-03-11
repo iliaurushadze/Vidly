@@ -20,6 +20,7 @@
                    <thead>
                        <tr>
                            <th>Customer</th>
+                           <th>Membership Type</th>
                        </tr>
                    </thead>
                    <tbody>
@@ -27,6 +28,7 @@
                        {
                            <tr>
                                <td><a href="Customers/Details/@customer.Id">@customer.Name</a></td>
+                               <td>@customer.MembershipType.Name</td>
                            </tr>
                        }
                    </tbody>
